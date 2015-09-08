@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
                 .icon(bitmap)  //设置marker图标
                 .zIndex(9)  //设置marker所在层级
                 .draggable(true);  //设置手势拖拽
-//将marker添加到地图上
+        //将marker添加到地图上
         marker = (Marker) (mBaiduMap.addOverlay(options));
 
         mBaiduMap.setOnMarkerClickListener(new BaiduMap.OnMarkerClickListener() {
